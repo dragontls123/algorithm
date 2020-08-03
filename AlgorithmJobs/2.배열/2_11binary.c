@@ -1,15 +1,34 @@
 #include <stdio.h>
-void bin(int n) {
-	if (n == 0) { printf("0"); return; }
-	if (n == 1) { printf("1"); return; }
-
-	bin(n / 2);
-	printf("%d", n % 2);
-}
+#define MAX(X,Y) ((X) > (Y) ? (X) : (Y))  
+int n, a, b, c;
+int max = 0;
+int temp;
 int main() {
-	int n;
+
+	
 	scanf("%d", &n);
-	//Please Enter Your Code Here
-	bin(n);
+	for (int i = 0; i < n; i++) {
+		scanf("%d %d %d", &a, &b, &c);
+		if (a == b && b == c) {
+			temp = 10000 + 1000 * a;
+		}
+		if ((a == b && b != c)) {
+			temp = 1000 + a * 100;
+		}
+		if ((b == c && a != b)) {
+			temp = 1000 + b * 100;
+		}
+		if ((a == c && a != b)) {
+			temp = 1000 + a * 100;
+		}
+		if (a != b && a != c && c != b) {
+			temp = MAX(a, MAX(b, c)) * 100;
+		}
+		if (temp > max) {
+			max = temp;
+		}
+
+	}
+	printf("%d", max);
 	return 0;
 }
