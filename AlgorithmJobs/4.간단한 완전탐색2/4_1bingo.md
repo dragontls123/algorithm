@@ -18,7 +18,9 @@
 
 [![img](https://postfiles.pstatic.net/MjAxOTEwMDVfNDMg/MDAxNTcwMjcwNTAzMzA2.zeIHH2hFRv40lIUe1RnPydqYfyoDO9u4KrWuQE9kDnAg.58fP8q04xwJn8R1xq2EGeRZIQb4t-_sBgeu5zMSvJ4cg.PNG.dhsin0468/image.png?type=w773)](https://blog.naver.com/PostView.nhn?blogId=dhsin0468&logNo=221669118427&parentCategoryNo=&categoryNo=22&viewDate=&isShowPopularPosts=false&from=postList#)
 
-철수는 친구들과 빙고 게임을 하고 있다. 철수가 빙고판에 쓴 수들과 사회자가 부르는 수의 순서가 주어질 때, 사회자가 몇 번째 수를 부른 후 철수가 "빙고"를 외치게 되는지를 출력하는 프로그램을 작성하시오.https://blog.naver.com/PostView.nhn?blogId=dhsin0468&logNo=221669118427&parentCategoryNo=&categoryNo=22&viewDate=&isShowPopularPosts=false&from=postList#)
+철수는 친구들과 빙고 게임을 하고 있다. 철수가 빙고판에 쓴 수들과 사회자가 부르는 수의 순서가 주어질 때, 사회자가 몇 번째 수를 부른 후 철수가 "빙고"를 외치게 되는지를 출력하는 프로그램을 작성하시오.
+
+
 
 **입력**
 
